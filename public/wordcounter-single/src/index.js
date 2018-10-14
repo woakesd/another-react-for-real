@@ -28,7 +28,7 @@ function Editor({
             <label htmlFor="editor" className="mv2">
                 Enter your name
             </label>
-            <textarea value="{text}" id="editor" />
+            <textarea value={text} id="editor" />
         </div>
     );
 }
