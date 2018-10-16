@@ -1,3 +1,11 @@
+import React from 'react';
+import ProgressBar from './ProgressBar';
+import Counter from './Counter';
+import Editor from './Editor';
+import SaveManager from './SaveManager';
+import countWords from './countWords';
+import makeFakeRequest from './makeFakeRequest';
+
 class WordCounter extends React.Component {
     constructor() {
         super();
@@ -29,3 +37,5 @@ class WordCounter extends React.Component {
         this.setState(() => ({text: currentText}));
     }
 }
+
+export default WordCounter;

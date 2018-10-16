@@ -1,3 +1,6 @@
+import React from 'react';
+import { IDLE, SUCCESS, FAILURE, WAITING } from './saveStatus';
+
 function AlertBox({ status }) {
     if (status === FAILURE) {
         return <div className="mv2">Save failed</div>;
@@ -9,3 +12,5 @@ function AlertBox({ status }) {
         return null;
     }
 }
+
+export default AlertBox;

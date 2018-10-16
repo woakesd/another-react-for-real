@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ProgressBar({ completion }) {
     const percentage = completion * 100;
     return (
@@ -11,3 +13,5 @@ function ProgressBar({ completion }) {
         </div>
     );
 }
+
+export default ProgressBar;

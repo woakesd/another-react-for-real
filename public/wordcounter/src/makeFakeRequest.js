@@ -10,3 +10,5 @@ function makeFakeRequest() {
         }, 500);
     });
 }
+
+export default makeFakeRequest;

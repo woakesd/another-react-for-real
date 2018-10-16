@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Editor({
     text,
     onTextChange
@@ -18,3 +20,5 @@ function Editor({
         </div>
     );
 }
+
+export default Editor;

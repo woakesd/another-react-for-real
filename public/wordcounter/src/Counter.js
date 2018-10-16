@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Counter({ count }){
     return (
         <p className="mb2">
@@ -6,3 +8,4 @@ function Counter({ count }){
     );
 }
 
+export default Counter;

@@ -1,4 +1,4 @@
-const SUCCESS = 'Success';
-const FAILURE = 'Failure';
-const WAITING = 'Waiting';
-const IDLE = 'Idle';
+export const SUCCESS = 'Success';
+export const FAILURE = 'Failure';
+export const WAITING = 'Waiting';
+export const IDLE = 'Idle';

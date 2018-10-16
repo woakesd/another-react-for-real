@@ -1,3 +1,8 @@
+import React from 'react';
+import AlertBox from './AlertBox';
+import SaveButton from './SaveButton';
+import { IDLE, SUCCESS, FAILURE, WAITING } from './saveStatus';
+
 class SaveManager extends React.Component {
     constructor() {
         super();
@@ -25,3 +30,5 @@ class SaveManager extends React.Component {
             );
     }
 }
+
+export default SaveManager;
