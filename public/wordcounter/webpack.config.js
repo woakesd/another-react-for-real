@@ -6,7 +6,7 @@ module.exports = {
         path: path.resolve(__dirname),
         filename: '[name]-bundle.js'
     },
-    modules: {
+    module: {
         rules: [
             {
                 test: /\.js$/,
