@@ -8,5 +8,9 @@ describe('the counting function', () => {
     it('counts an empty string', () => {
         expect(countWords('')).toBe(0);
     });
+
+    it('counts a string with no words', () => {
+        expect(countWords(' ')).toBe(0);
+    });
 })
 
