@@ -4,7 +4,15 @@ exports[`a counter describes the count and label 1`] = `
 <p
   className="mb2"
 >
-  Word count 
-  34
+  <label
+    htmlFor="count"
+  >
+    Word count
+  </label>
+  <output
+    id="count"
+  >
+    34
+  </output>
 </p>
 `;
